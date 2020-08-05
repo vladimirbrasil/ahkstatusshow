@@ -33,7 +33,7 @@ class StatusGui {
     Gui, +AlwaysOnTop
     Gui, Add, Text,text W%textwidth% H%textheight% 0x2, %text%
     Gui, -Caption
-    Gui, Show,, feedback
+    Gui, Show, NoActivate, feedback
     WinMove, feedback, , dx, dy
   }
 }
